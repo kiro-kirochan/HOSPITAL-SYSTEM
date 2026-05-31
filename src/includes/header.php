@@ -13,7 +13,7 @@
     <!-- Profile Section -->
     <div class="profile-section">
         <div class="profile-avatar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#8492a6" viewBox="0 0 24 24"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
+            <img src="/hospital/src/images/luhbobo.jpg" alt="Admin Profile">
         </div>
         <p class="profile-name">Administrator</p>
         <p class="profile-email">admin@hospitality.com</p>
@@ -52,20 +52,7 @@
 <!-- MAIN CONTENT -->
 <div class="main-content">
 
-    <!-- TOP BAR -->
-    <div class="topbar">
-        <div class="topbar-search">
-            <span class="topbar-search-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-            </span>
-            <input type="text" id="topSearchInput" onkeyup="searchTable()" placeholder="Search records...">
-        </div>
-        <div class="topbar-date">
-            <div class="date-label">Today's Date</div>
-            <div class="date-value"><?php echo date('Y-m-d'); ?></div>
-        </div>
-        <button class="topbar-cal-btn">📅</button>
-    </div>
+ 
 
     <!-- PAGE BODY -->
     <div class="page-body">
