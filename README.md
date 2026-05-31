@@ -104,7 +104,7 @@ C:\xampp\htdocs\hospital\database.sql
 
 3. Type `hospital` as the database name → click **Create**
 
-4. Click the **Import** tab at the top (You can also copy the codes from any editor, like VSCode and create the database `hospital` then once the database was created, go to SQL tab then paste the database.sql code)
+4. Click the **Import** tab at the top, but you can also copy the codes from any editor, like VSCode and create the database `hospital` then once the database was created, go to SQL tab then paste the database.sql code
 
 5. Click **Choose File** → select `database.sql` from the hospital folder
 
